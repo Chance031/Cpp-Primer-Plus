@@ -39,3 +39,14 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio 관련 임시 파일 (필수 추가)
+.vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+
+# CMake 빌드 결과물 폴더
+/build/
+/out/
