@@ -22,6 +22,7 @@ add_executable(ch02_02 Chapter02/carrots.cpp)
 add_executable(ch02_03 Chapter02/getinfo.cpp)
 add_executable(ch02_04 Chapter02/sqrt.cpp)
 add_executable(ch02_05 Chapter02/ourfunc.cpp)
+add_executable(ch02_06 Chapter02/convert.cpp)
 
 
 # -----------------------------------------------------------------
