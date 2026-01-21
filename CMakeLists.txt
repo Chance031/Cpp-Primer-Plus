@@ -26,7 +26,6 @@ add_executable(ch02_06 Chapter02/convert.cpp)
 
 
 # -----------------------------------------------------------------
-# 제 3장: 데이터 처리 (Chapter 03) - (추가 예정)
+# 제 3장: 데이터 처리 (Chapter 03)
 # -----------------------------------------------------------------
-# 새로운 예제를 만들 때마다 아래에 add_executable을 추가하세요.
-# add_executable(ch03_01_limits Chapter03/limits.cpp)
+add_executable(ch03_01 Chapter03/limits.cpp)
