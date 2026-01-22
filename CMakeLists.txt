@@ -35,4 +35,5 @@ add_executable(ex02_07 "excercise/Chapter02/ex02_07.cpp")
 # -----------------------------------------------------------------
 # 제 3장: 데이터 처리 (Chapter 03)
 # -----------------------------------------------------------------
-add_executable(ch03_01 source/Chapter03/limits.cpp)
+add_executable(ch03_01 "source/Chapter03/ch03_01.cpp")
+add_executable(ch03_02 "source/Chapter03/ch03_02.cpp")
