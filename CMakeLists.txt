@@ -17,15 +17,22 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 # -----------------------------------------------------------------
 # 제 2장: 시작하기 (Chapter 02)
 # -----------------------------------------------------------------
-add_executable(ch02_01 Chapter02/myfirst.cpp)
-add_executable(ch02_02 Chapter02/carrots.cpp)
-add_executable(ch02_03 Chapter02/getinfo.cpp)
-add_executable(ch02_04 Chapter02/sqrt.cpp)
-add_executable(ch02_05 Chapter02/ourfunc.cpp)
-add_executable(ch02_06 Chapter02/convert.cpp)
+add_executable(ch02_01 "source/Chapter02/ch02_01.cpp")
+add_executable(ch02_02 "source/Chapter02/ch02_02.cpp")
+add_executable(ch02_03 "source/Chapter02/ch02_03.cpp")
+add_executable(ch02_04 "source/Chapter02/ch02_04.cpp")
+add_executable(ch02_05 "source/Chapter02/ch02_05.cpp")
+add_executable(ch02_06 "source/Chapter02/ch02_06.cpp")
+add_executable(ex02_01 "excercise/Chapter02/ex02_01.cpp")
+add_executable(ex02_02 "excercise/Chapter02/ex02_02.cpp")
+add_executable(ex02_03 "excercise/Chapter02/ex02_03.cpp")
+add_executable(ex02_04 "excercise/Chapter02/ex02_04.cpp")
+add_executable(ex02_05 "excercise/Chapter02/ex02_05.cpp")
+add_executable(ex02_06 "excercise/Chapter02/ex02_06.cpp")
+add_executable(ex02_07 "excercise/Chapter02/ex02_07.cpp")
 
 
 # -----------------------------------------------------------------
 # 제 3장: 데이터 처리 (Chapter 03)
 # -----------------------------------------------------------------
-add_executable(ch03_01 Chapter03/limits.cpp)
+add_executable(ch03_01 source/Chapter03/limits.cpp)
