@@ -6,7 +6,7 @@ int main()
 {
 	int height_cm;
 
-	const int cm_per_m = 100;
+	const int CM_PER_M = 100;
 
 	std::cout << "키를 입력하시오(센티미터 단위): ___\b\b\b";
 	if (!(std::cin >> height_cm))
@@ -15,8 +15,8 @@ int main()
 		return 1;
 	}
 
-	int meters = height_cm / cm_per_m;
-	int centimeters = height_cm % cm_per_m;
+	int meters = height_cm / CM_PER_M;
+	int centimeters = height_cm % CM_PER_M;
 
 	std::cout << "키는 " << meters << "미터 " << centimeters << "센티미터입니다." << std::endl;
 
