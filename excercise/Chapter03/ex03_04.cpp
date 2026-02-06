@@ -7,9 +7,12 @@
 int main()
 {
 	long total_seconds;
+	
 	const int DAY_PER_SECONDS = 60 * 60 * 24;
 	const int HOURS_PER_SECONDS = 60 * 60;
 	const int MINUTES_PER_SECONDS = 60;
+
+	long remaining_seconds;
 
 	std::cout << "초 수를 입력하시오: ";
 	if (!(std::cin >> total_seconds))
@@ -18,10 +21,16 @@ int main()
 		return 1;
 	}
 	
-	int days = total_seconds / DAY_PER_SECONDS;
-	int hours = (total_seconds - days * DAY_PER_SECONDS) / HOURS_PER_SECONDS;
-	int minutes = (total_seconds - days * DAY_PER_SECONDS - hours * HOURS_PER_SECONDS) / MINUTES_PER_SECONDS;
-	int seconds = (total_seconds - days * DAY_PER_SECONDS - hours * HOURS_PER_SECONDS - minutes * MINUTES_PER_SECONDS);
+	long days = total_seconds / DAY_PER_SECONDS;
+	remaining_seconds = total_seconds % DAY_PER_SECONDS;
+
+	long hours = remaining_seconds / HOURS_PER_SECONDS;
+	remaining_seconds = remaining_seconds % HOURS_PER_SECONDS;
+	
+	long minutes = remaining_seconds / MINUTES_PER_SECONDS;
+	remaining_seconds = remaining_seconds % MINUTES_PER_SECONDS;
+
+	long seconds = remaining_seconds;
 
 	std::cout << total_seconds << "초는 " << days << "일, " << hours << "시간, " << minutes << "분, " << seconds <<"초";
 
