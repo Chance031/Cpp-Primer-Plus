@@ -57,3 +57,9 @@ add_executable(ex03_05 "excercise/Chapter03/ex03_05.cpp")
 add_executable(ex03_06a "excercise/Chapter03/ex03_06a.cpp")
 add_executable(ex03_06b "excercise/Chapter03/ex03_06b.cpp")
 add_executable(ex03_07 "excercise/Chapter03/ex03_07.cpp")
+
+
+# -----------------------------------------------------------------
+# 제 4장: 복합 데이터형 (Chapter 04)
+# -----------------------------------------------------------------
+add_executable(ch04_01 "source/Chapter04/ch04_01.cpp")
