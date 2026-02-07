@@ -64,3 +64,4 @@ add_executable(ex03_07 "excercise/Chapter03/ex03_07.cpp")
 # -----------------------------------------------------------------
 add_executable(ch04_01 "source/Chapter04/ch04_01.cpp")
 add_executable(ch04_02 "source/Chapter04/ch04_02.cpp")
+add_executable(ch04_03 "source/Chapter04/ch04_03.cpp")
