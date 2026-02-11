@@ -103,3 +103,4 @@ add_executable(ex04_10 "excercise/Chapter04/ex04_10.cpp")
 # -----------------------------------------------------------------
 add_executable(ch05_01 "source/Chapter05/ch05_01.cpp")
 add_executable(ch05_02 "source/Chapter05/ch05_02.cpp")
+add_executable(ch05_03 "source/Chapter05/ch05_03.cpp")
