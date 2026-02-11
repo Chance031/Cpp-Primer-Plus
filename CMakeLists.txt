@@ -102,3 +102,4 @@ add_executable(ex04_10 "excercise/Chapter04/ex04_10.cpp")
 # 제 5장: 루프와 관계 표현식 (Chapter 05)
 # -----------------------------------------------------------------
 add_executable(ch05_01 "source/Chapter05/ch05_01.cpp")
+add_executable(ch05_02 "source/Chapter05/ch05_02.cpp")
