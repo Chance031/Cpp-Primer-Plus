@@ -131,3 +131,9 @@ add_executable(ex05_07 "excercise/Chapter05/ex05_07.cpp")
 add_executable(ex05_08 "excercise/Chapter05/ex05_08.cpp")
 add_executable(ex05_09 "excercise/Chapter05/ex05_09.cpp")
 add_executable(ex05_10 "excercise/Chapter05/ex05_10.cpp")
+
+
+# -----------------------------------------------------------------
+# 제 6장: 분기 구문과 논리 연산자 (Chapter 06)
+# -----------------------------------------------------------------
+add_executable(ch06_01 "source/Chapter06/ch06_01.cpp")
