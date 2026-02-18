@@ -167,6 +167,7 @@ add_executable(ex06_09 "excercise/Chapter06/ex06_09.cpp")
 # 제 7장: 함수 - C++의 프로그래밍 모듈 (Chapter 07)
 # -----------------------------------------------------------------
 add_executable(ch07_01 "source/Chapter07/ch07_01.cpp")
+add_executable(ch07_02 "source/Chapter07/ch07_02.cpp")
 
 
 # -----------------------------------------------------------------
