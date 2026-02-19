@@ -177,6 +177,7 @@ add_executable(ch07_08 "source/Chapter07/ch07_08.cpp")
 add_executable(ch07_09 "source/Chapter07/ch07_09.cpp")
 add_executable(ch07_10 "source/Chapter07/ch07_10.cpp")
 add_executable(ch07_11 "source/Chapter07/ch07_11.cpp")
+add_executable(ch07_12 "source/Chapter07/ch07_12.cpp")
 
 
 # -----------------------------------------------------------------
