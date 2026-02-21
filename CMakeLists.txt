@@ -191,6 +191,7 @@ add_executable(ex07_03 "excercise/Chapter07/ex07_03.cpp")
 add_executable(ex07_04 "excercise/Chapter07/ex07_04.cpp")
 add_executable(ex07_05 "excercise/Chapter07/ex07_05.cpp")
 add_executable(ex07_06 "excercise/Chapter07/ex07_06.cpp")
+add_executable(ex07_07 "excercise/Chapter07/ex07_07.cpp")
 
 
 # -----------------------------------------------------------------
