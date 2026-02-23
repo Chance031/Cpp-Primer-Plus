@@ -9,8 +9,11 @@ int main()
 	cout << "rats = " << rats;
 	cout << ", rodents = " << rodents << endl;
 
+	cout << "rats의 주소 = " << &rats;
+	cout << ", rodents의 주소 = " << &rodents << endl;
+
 	int bunnies = 50;
-	rodents = bunnies;
+	rodents = bunnies;					// 참조를 바꿀 수 있는가?
 	cout << "bunnies = " << bunnies;
 	cout << ", rats = " << rats;
 	cout << ", rodents = " << rodents << endl;
