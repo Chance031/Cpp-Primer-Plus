@@ -202,6 +202,7 @@ add_executable(ex07_10 "excercise/Chapter07/ex07_10.cpp")
 # 제 8장: 함수의 활용 (Chapter 08)
 # -----------------------------------------------------------------
 add_executable(ch08_01 "source/Chapter08/ch08_01.cpp")
+add_executable(ch08_02 "source/Chapter08/ch08_02.cpp")
 
 
 # -----------------------------------------------------------------
