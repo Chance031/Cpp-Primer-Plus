@@ -215,6 +215,7 @@ add_executable(ch08_11 "source/Chapter08/ch08_11.cpp")
 add_executable(ch08_12 "source/Chapter08/ch08_12.cpp")
 add_executable(ch08_13 "source/Chapter08/ch08_13.cpp")
 add_executable(ch08_14 "source/Chapter08/ch08_14.cpp")
+add_executable(ch08_15 "source/Chapter08/ch08_15.cpp")
 
 # -----------------------------------------------------------------
 # 제 9장: 메모리 모델과 이름 공간 (Chapter 09)
