@@ -220,6 +220,9 @@ add_executable(ex08_01 "excercise/Chapter08/ex08_01.cpp")
 add_executable(ex08_02 "excercise/Chapter08/ex08_02.cpp")
 add_executable(ex08_03 "excercise/Chapter08/ex08_03.cpp")
 add_executable(ex08_04 "excercise/Chapter08/ex08_04.cpp")
+add_executable(ex08_05 "excercise/Chapter08/ex08_05.cpp")
+add_executable(ex08_06 "excercise/Chapter08/ex08_06.cpp")
+add_executable(ex08_07 "excercise/Chapter08/ex08_07.cpp")
 
 # -----------------------------------------------------------------
 # 제 9장: 메모리 모델과 이름 공간 (Chapter 09)
