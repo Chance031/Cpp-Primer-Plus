@@ -229,7 +229,8 @@ add_executable(ex08_07 "excercise/Chapter08/ex08_07.cpp")
 # -----------------------------------------------------------------
 add_executable(ch09_01-03
 	"source/Chapter09/ch09_01.h"
-	"source/Chapter09/ch09_02.cpp")
+	"source/Chapter09/ch09_02.cpp"
+	"source/Chapter09/ch09_03.cpp")
 
 
 # -----------------------------------------------------------------
