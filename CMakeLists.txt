@@ -234,6 +234,7 @@ add_executable(ch09_01-03
 add_executable(ch09_04 "source/Chapter09/ch09_04.cpp")
 add_executable(ch09_05-06 "source/Chapter09/ch09_05.cpp"
 	"source/Chapter09/ch09_06.cpp")
+add_executable(ch09_07 "source/Chapter09/ch09_07.cpp")
 
 
 # -----------------------------------------------------------------
