@@ -240,9 +240,10 @@ add_executable(ch09_07-08
 	"source/Chapter09/ch09_08.cpp")
 add_executable(ch09_09 "source/Chapter09/ch09_09.cpp")
 add_executable(ch09_10 "source/Chapter09/ch09_10.cpp")
-add_executable(ch09_11-12
+add_executable(ch09_11-13
 	"source/Chapter09/ch09_11.h"
-	"source/Chapter09/ch09_12.cpp")
+	"source/Chapter09/ch09_12.cpp"
+	"source/Chapter09/ch09_13.cpp")
 
 # -----------------------------------------------------------------
 # 제 10장: 객체와 클래스 (Chapter 10)
