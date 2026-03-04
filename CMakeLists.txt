@@ -244,6 +244,16 @@ add_executable(ch09_11-13
 	"source/Chapter09/ch09_11.h"
 	"source/Chapter09/ch09_12.cpp"
 	"source/Chapter09/ch09_13.cpp")
+add_executable(ex09_01 
+	"excercise/Chapter09/ex09_01/ex09_01.cpp"
+	"excercise/Chapter09/ex09_01/golf.h"
+	"excercise/Chapter09/ex09_01/golf.cpp")
+add_executable(ex09_02 "excercise/Chapter09/ex09_02.cpp")
+add_executable(ex09_03 "excercise/Chapter09/ex09_03.cpp")
+add_executable(ex09_04 
+	"excercise/Chapter09/ex09_04/ex09_04.cpp"
+	"excercise/Chapter09/ex09_04/namesp.h"
+	"excercise/Chapter09/ex09_04/namesp.cpp")
 
 # -----------------------------------------------------------------
 # 제 10장: 객체와 클래스 (Chapter 10)
