@@ -10,7 +10,7 @@ private:
 	long shares;
 	double share_val;
 	double total_val;
-	void set_tot() { total_val = shares * share + val; }
+	void set_tot() { total_val = shares * share_val; }
 public:
 // 두 개의 생성자
 	Stock();				// 디폴트 생성자
