@@ -262,9 +262,10 @@ add_executable(ch10_01-03
 	"source/Chapter10/ch10_01.h"
 	"source/Chapter10/ch10_02.cpp"
 	"source/Chapter10/ch10_03.cpp")
-add_executable(ch10_04-05
+add_executable(ch10_04-06
 	"source/Chapter10/ch10_04.h"
-	"source/Chapter10/ch10_05.cpp")
+	"source/Chapter10/ch10_05.cpp"
+	"source/Chapter10/ch10_06.cpp")
 
 # -----------------------------------------------------------------
 # 제 11장: 클래스의 활용 (Chapter 11)
