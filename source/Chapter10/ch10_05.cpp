@@ -86,11 +86,11 @@ void Stock::show()
 	std::streamsize prec = cout.precision(3);
 
 	cout << "회사명: " << company
-		 << " 주식 수: " << shares << '\n';
-	cout << " 주가: $" << share_val;
+		 << "	주식 수: " << shares << '\n';
+	cout << "  주가: $" << share_val;
 	// set format to #.##
 	cout.precision(2);
-	cout << " 주식 총 가치: $" << total_val << '\n';
+	cout << "		주식 총 가치: $" << total_val << '\n';
 
 	// 원본 포맷을 저장한다
 	cout.setf(orig, ios_base::floatfield);
