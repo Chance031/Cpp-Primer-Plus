@@ -1,11 +1,11 @@
-// stock00.h -- Stock í´ë˜ìŠ¤ ì¸í„°í˜ì´ìŠ¤
+// stock00.h -- Stock Å¬·¡½º ÀÎÅÍÆäÀÌ½º
 // version 00
 #ifndef STOCK00_H_
 #define STOCK00_H_
 
 #include <string>
 
-class Stock									// í´ë˜ìŠ¤ ì„ ì–¸
+class Stock									// Å¬·¡½º ¼±¾ğ
 {
 private:
 	std::string company;
@@ -19,6 +19,6 @@ public:
 	void sell(long num, double price);
 	void update(double price);
 	void show();
-};											// ëì— ì„¸ë¯¸ì½œë¡ ì´ ìˆëŠ” ê²ƒì— ì£¼ì˜
+};											// ³¡¿¡ ¼¼¹ÌÄİ·ĞÀÌ ÀÖ´Â °Í¿¡ ÁÖÀÇ
 
 #endif
