@@ -276,6 +276,38 @@ add_executable(ch10_10-12
 	"source/Chapter10/ch10_10.h"
 	"source/Chapter10/ch10_11.cpp"
 	"source/Chapter10/ch10_12.cpp")
+add_executable(ex10_01 
+	"excercise/Chapter10/ex10_01/account.h"
+	"excercise/Chapter10/ex10_01/account.cpp"
+	"excercise/Chapter10/ex10_01/useaccnt.cpp")
+add_executable(ex10_02 
+	"excercise/Chapter10/ex10_02/person.h"
+	"excercise/Chapter10/ex10_02/person.cpp"
+	"excercise/Chapter10/ex10_02/ex10_02.cpp")
+add_executable(ex10_03 
+	"excercise/Chapter10/ex10_03/golf.h"
+	"excercise/Chapter10/ex10_03/golf.cpp"
+	"excercise/Chapter10/ex10_03/usegolf.cpp")
+add_executable(ex10_04 
+	"excercise/Chapter10/ex10_04/namesp.h"
+	"excercise/Chapter10/ex10_04/namesp.cpp"
+	"excercise/Chapter10/ex10_04/usenmsp.cpp")
+add_executable(ex10_05 
+	"excercise/Chapter10/ex10_05/stack.h"
+	"excercise/Chapter10/ex10_05/stack.cpp"
+	"excercise/Chapter10/ex10_05/usestack.cpp")
+add_executable(ex10_06
+	"excercise/Chapter10/ex10_06/move.h"
+	"excercise/Chapter10/ex10_06/move.cpp"
+	"excercise/Chapter10/ex10_06/usemove.cpp")
+add_executable(ex10_07
+	"excercise/Chapter10/ex10_07/plorg.h"
+	"excercise/Chapter10/ex10_07/plorg.cpp"
+	"excercise/Chapter10/ex10_07/useplorg.cpp")
+add_executable(ex10_08
+	"excercise/Chapter10/ex10_08/list.h"
+	"excercise/Chapter10/ex10_08/list.cpp"
+	"excercise/Chapter10/ex10_08/uselist.cpp")
 
 
 # -----------------------------------------------------------------
