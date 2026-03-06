@@ -7,7 +7,7 @@ typedef unsigned long Item;
 class Stack
 {
 private:
-	enum { Max = 10 };							// 클래스용 상수
+	enum { MAX = 10 };							// 클래스용 상수
 	Item items[MAX];							// 스택 항목들을 저장한다
 	int top;									// 스택의 꼭대기 항목을 나타낸다
 public:
