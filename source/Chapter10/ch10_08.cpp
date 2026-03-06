@@ -13,7 +13,6 @@ Stock::Stock()	// 디폴트 생성자
 
 Stock::Stock(const std::string& co, long n, double pr)
 {
-	std::cout << co << "를 사용하는 생성자가 호출되었습니다.\n";
 	company = co;
 
 	if (n < 0)
