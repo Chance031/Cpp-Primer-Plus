@@ -224,6 +224,7 @@ add_executable(ex08_05 "excercise/Chapter08/ex08_05.cpp")
 add_executable(ex08_06 "excercise/Chapter08/ex08_06.cpp")
 add_executable(ex08_07 "excercise/Chapter08/ex08_07.cpp")
 
+
 # -----------------------------------------------------------------
 # 제 9장: 메모리 모델과 이름 공간 (Chapter 09)
 # -----------------------------------------------------------------
@@ -255,6 +256,7 @@ add_executable(ex09_04
 	"excercise/Chapter09/ex09_04/namesp.h"
 	"excercise/Chapter09/ex09_04/namesp.cpp")
 
+
 # -----------------------------------------------------------------
 # 제 10장: 객체와 클래스 (Chapter 10)
 # -----------------------------------------------------------------
@@ -266,7 +268,10 @@ add_executable(ch10_04-06
 	"source/Chapter10/ch10_04.h"
 	"source/Chapter10/ch10_05.cpp"
 	"source/Chapter10/ch10_06.cpp")
-add_executable(ch10_07 "source/Chapter10/ch10_07.h")
+add_executable(ch10_07-08 
+	"source/Chapter10/ch10_07.h"
+	"source/Chapter10/ch10_08.cpp")
+
 
 # -----------------------------------------------------------------
 # 제 11장: 클래스의 활용 (Chapter 11)
