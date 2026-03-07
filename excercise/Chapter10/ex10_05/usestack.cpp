@@ -16,24 +16,26 @@ int main()
 	Stack st;
 	char c;
 	Item client;
-	static double running_total = 0;
+	double running_total = 0;
 
-	std::cout << "고객을 추가하려면 A, 고객을 삭제하려면 D, \n"
-		<< "종료하려면 Q를 입력하십시오.\n";
+	std::cout << "고객을 추가하려면 A, 고객을 삭제하려면 D, \n" << "종료하려면 Q를 입력하십시오.\n";
+
 	while (std::cin >> c && toupper(c) != 'Q')
 	{
 		while (std::cin.get() != '\n')
 			continue;
+
 		if (!isalpha(c))
 		{
 			std::cout << '\a';
 			continue;
 		}
+
 		switch (c)
 		{
 		case 'A':
 		case 'a': std::cout << "추가할 고객의 이름을 입력하십시오: ";
-			std::cin.get(client.fullname, 34);
+			std::cin.get(client.fullname, 35);
 			std::cout << "이 고객이 지불할 금액을 입력하십시오: ";
 			std::cin >> client.payment;
 			std::cin.clear();
@@ -56,9 +58,10 @@ int main()
 		}
 				break;
 		}
-		std::cout << "고객을 추가하려면 A, 고객을 삭제하려면 D, \n"
-			<< "종료하려면 Q를 입력하십시오.\n";
+
+		std::cout << "고객을 추가하려면 A, 고객을 삭제하려면 D, \n" << "종료하려면 Q를 입력하십시오.\n";
 	}
+
 	std::cout << "프로그램을 종료합니다.\n";
 	return 0;
 }

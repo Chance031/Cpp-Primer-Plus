@@ -1,4 +1,3 @@
-#include <cstring>
 #include "stack.h"
 
 Stack::Stack()
