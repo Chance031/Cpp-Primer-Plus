@@ -8,3 +8,18 @@
 //		플로그는 그것의 이름과 CI를 보고할 수 있다.
 //		디폴트 플로그는 "Plorga"라는 이름을 가진다.
 // 플로그를 나타내는 Plorg 클래스 선언을 (데이터 멤버들과 멤버 함수 원형들을 포함하여) 작성하라. 그 멤버 함수들의 함수 정의를 작성하라. Plorg 클래스의 모든 기능이 바르게 동작하는지 보여 주는 간단한 프로그램을 작성하라. (plorg.h, plorg.cpp, useplorg.cpp)
+
+#include <iostream>
+#include "plorg.h"
+
+int main()
+{
+	Plorg plorg;
+
+	plorg.showPlorg();
+	plorg.changeCI(10);
+	plorg.showPlorg();
+
+	std::cout << "프로그램을 종료합니다.\n";
+	return 0;
+}

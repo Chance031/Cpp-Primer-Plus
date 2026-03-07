@@ -14,3 +14,21 @@
 // [	reset(double a = 0, double b = 0);	// x, y를 a, b로 재설정한다]
 // [};]
 // 이 클래스를 테스트할 수 있는 멤버 함수 정의들과 간단한 테스트 프로그램을 작성하라.
+
+#include <iostream>
+#include "move.h"
+
+int main()
+{
+	Move a;
+	Move b(3, 5);
+
+	a.showmove();
+	a = a.add(b);
+	a.showmove();
+	a.reset(7, 7);
+	a.showmove();
+
+	std::cout << "프로그램을 종료합니다.\n";
+	return 0;
+}

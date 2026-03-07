@@ -16,3 +16,56 @@
 // [void visit(void(*pf)(Item&));]
 // 여기서 pf는 Item 매개변수에 대한 참조를 취하는 (멤버 함수가 아닌) 어떤 함수를 지시한다. Item은 그 리스트에 있는 항목들의 데이터형이다. 그리고 visit() 함수는 리스트에 있는 각 항목에 이 함수를 적용한다.
 // 일반적인 지침으로 Stack 클래스를 사용할 수 있다. (list.h, list.cpp, uselist.cpp)
+
+#include <iostream>
+#include "list.h"
+
+void square(Item& it);
+void cube(Item& it);
+
+int main()
+{
+	List list;
+	int value = 10;
+
+
+	if (!list.isempty())
+		list.show();
+	
+	list.add(value);
+	list.show();
+
+	for (int i = 0; i < 10; ++i)
+	{
+		if (!list.isfull())
+		{
+			list.add(value);
+			value += value;
+		}
+		else
+		{
+			std::cout << "리스트가 가득 찼습니다.\n";
+		}
+	}
+
+	list.show();
+
+	list.visit(square);
+	list.show();
+
+	list.visit(cube);
+	list.show();
+
+	std::cout << "프로그램을 종료합니다.\n";
+	return 0;
+}
+
+void square(Item& it)
+{
+	it = it * it;
+}
+
+void cube(Item& it)
+{
+	it = it * it * it;
+}
