@@ -40,5 +40,5 @@ namespace VECTOR
 		friend Vector operator*(double n, const Vector& a);
 		friend std::ostream& operator<<(std::ostream& os, const Vector& v);
 	};
-}	// namespace VECTOR의 끝ㅌ
+}	// namespace VECTOR의 끝
 #endif
