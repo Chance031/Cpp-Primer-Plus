@@ -317,6 +317,7 @@ add_executable(ch11_01-03
 	"source/Chapter11/ch11_01.h"
 	"source/Chapter11/ch11_02.cpp"
 	"source/Chapter11/ch11_03.cpp")
+add_executable(ch11_04 "source/Chapter11/ch11_04.h")
 
 
 # -----------------------------------------------------------------
