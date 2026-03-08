@@ -317,9 +317,10 @@ add_executable(ch11_01-03
 	"source/Chapter11/ch11_01.h"
 	"source/Chapter11/ch11_02.cpp"
 	"source/Chapter11/ch11_03.cpp")
-add_executable(ch11_04-05
+add_executable(ch11_04-06
 	"source/Chapter11/ch11_04.h"
-	"source/Chapter11/ch11_05.cpp")
+	"source/Chapter11/ch11_05.cpp"
+	"source/Chapter11/ch11_06.cpp")
 
 
 # -----------------------------------------------------------------
