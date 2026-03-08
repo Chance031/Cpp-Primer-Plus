@@ -153,7 +153,7 @@ namespace VECTOR
 		else if (v.mode == Vector::POL)
 		{
 			os << "(m,a) = (" << v.mag << ", "
-				<< v.ang * Rad_to_deg << ")";
+			   << v.ang * Rad_to_deg << ")";
 		}
 		else
 			os << "Vector 객체의 모드 지정이 틀렸습니다.\n";
