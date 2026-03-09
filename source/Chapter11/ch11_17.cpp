@@ -19,7 +19,7 @@ Stonewt::Stonewt(int stn, double lbs)
 	pounds = stn * Lbs_per_stn + lbs;
 }
 
-Stonewt::Stonwet()						// 디폴트 생성자, 무게 = 0
+Stonewt::Stonewt()						// 디폴트 생성자, 무게 = 0
 {
 	stone = pounds = pds_left = 0;
 }
