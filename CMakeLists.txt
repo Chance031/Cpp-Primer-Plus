@@ -337,7 +337,10 @@ add_executable(ch11_16-18
 	"source/Chapter11/ch11_16.h"
 	"source/Chapter11/ch11_17.cpp"
 	"source/Chapter11/ch11_18.cpp")
-add_executable(ch11_19 "source/Chapter11/ch11_19.h")
+add_executable(ch11_19-20 
+	"source/Chapter11/ch11_19.h"
+	"source/Chapter11/ch11_20.cpp")
+
 
 # -----------------------------------------------------------------
 # 제 12장: 클래스와 동적 메모리 대입 (Chapter 12)
