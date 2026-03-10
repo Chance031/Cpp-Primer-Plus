@@ -341,7 +341,30 @@ add_executable(ch11_19-21
 	"source/Chapter11/ch11_19.h"
 	"source/Chapter11/ch11_20.cpp"
 	"source/Chapter11/ch11_21.cpp")
-
+add_executable(ex11_01 
+	"source/Chapter11/ch11_13.h"
+	"source/Chapter11/ch11_14.cpp"
+	"excercise/Chapter11/ex11_01.cpp")
+add_executable(ex11_02
+	"excercise/Chapter11/ex11_02/vect1.h"
+	"excercise/Chapter11/ex11_02/vect1.cpp"
+	"excercise/Chapter11/ex11_02/randwalk.cpp")
+add_executable(ex11_03
+	"excercise/Chapter11/ex11_03/vector.h"
+	"excercise/Chapter11/ex11_03/vector.cpp"
+	"excercise/Chapter11/ex11_03/usevector.cpp")
+add_executable(ex11_04
+	"excercise/Chapter11/ex11_04/mytime4.h"
+	"excercise/Chapter11/ex11_04/mytime4.cpp"
+	"excercise/Chapter11/ex11_04/usetime4.cpp")
+add_executable(ex11_05
+	"excercise/Chapter11/ex11_05/stonewt2.h"
+	"excercise/Chapter11/ex11_05/stonewt2.cpp"
+	"excercise/Chapter11/ex11_05/stone2.cpp")
+add_executable(ex11_06
+	"excercise/Chapter11/ex11_06/stonewt3.h"
+	"excercise/Chapter11/ex11_06/stonewt3.cpp"
+	"excercise/Chapter11/ex11_06/stone3.cpp")
 
 # -----------------------------------------------------------------
 # 제 12장: 클래스와 동적 메모리 대입 (Chapter 12)
