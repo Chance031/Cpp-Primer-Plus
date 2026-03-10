@@ -111,6 +111,11 @@ namespace VECTOR
 		mode = POL;
 	}
 
+	void Vector::rect_mode()	// 직각 좌표 모드로 설정한다
+	{
+		mode = RECT;
+	}
+
 	// 연산자 오버로딩
 	// 두 Vector 객체를 더한다
 	Vector Vector::operator+ (const Vector& b) const
