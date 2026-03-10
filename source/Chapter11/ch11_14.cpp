@@ -73,7 +73,6 @@ namespace VECTOR
 			x = y = mag = ang = 0.0;
 			mode = RECT;
 		}
-
 	}
 	// form이 RECT이면 직각 좌표로부터 벡터를 구성한다 (디폴트)
 		// form이 POL이면 극 좌표로부터 벡터를 구성한다
