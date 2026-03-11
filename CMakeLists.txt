@@ -365,6 +365,11 @@ add_executable(ex11_06
 	"excercise/Chapter11/ex11_06/stonewt3.h"
 	"excercise/Chapter11/ex11_06/stonewt3.cpp"
 	"excercise/Chapter11/ex11_06/stone3.cpp")
+add_executable(ex11_07
+	"excercise/Chapter11/ex11_07/complex0.h"
+	"excercise/Chapter11/ex11_07/complex0.cpp"
+	"excercise/Chapter11/ex11_07/usecmplx.cpp")
+
 
 # -----------------------------------------------------------------
 # 제 12장: 클래스와 동적 메모리 대입 (Chapter 12)
