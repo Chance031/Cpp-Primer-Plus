@@ -382,6 +382,10 @@ add_executable(ch12_04-05
 	"source/Chapter12/ch12_04.h"
 	"source/Chapter12/ch12_05.cpp"
 	"source/Chapter12/ch12_06.cpp")
+add_executable(ch12_07 
+	"source/Chapter12/ch12_04.h"
+	"source/Chapter12/ch12_05.cpp"
+	"source/Chapter12/ch12_07.cpp")
 
 
 # -----------------------------------------------------------------
