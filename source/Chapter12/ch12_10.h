@@ -26,7 +26,7 @@ private:
 	//private 클래스 멤버들
 	Node* front;						// Queue의 머리를 지시하는 포인터
 	Node* rear;							// Queue의 꼬리를 지시하는 포인터
-	int times;							// Queue에 있는 현재 항목 수
+	int items;							// Queue에 있는 현재 항목 수
 	const int qsize;					// Queue에 넣을 수 있는 최대 항목 수
 	// public 복사를 방지하는 선점 정의
 	Queue(const Queue& q) : qsize(0) {}
@@ -36,7 +36,7 @@ public:
 	~Queue();
 	bool isempty() const;
 	bool isfull() const;
-	int queueconst() const;
+	int queuecount() const;
 	bool enqueue(const Item& item);		// 항목을 꼬리에 추가한다
 	bool dequeue(Item& item);			// 머리에서 항목을 삭제한다
 };
