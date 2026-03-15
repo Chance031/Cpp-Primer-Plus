@@ -400,6 +400,10 @@ add_executable(ex12_02
 	"excercise/Chapter12/ex12_02/string2.h"
 	"excercise/Chapter12/ex12_02/string2.cpp"
 	"excercise/Chapter12/ex12_02/pe12-02.cpp")
+add_executable(ex12_03 
+	"excercise/Chapter12/ex12_03/stock3.h"
+	"excercise/Chapter12/ex12_03/stock3.cpp"
+	"excercise/Chapter12/ex12_03/usestok3.cpp")
 
 # -----------------------------------------------------------------
 # 제 13장: 클래스의 상속 (Chapter 13)
