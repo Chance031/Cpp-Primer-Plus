@@ -392,6 +392,10 @@ add_executable(ch12_10-12
 	"source/Chapter12/ch12_10.h"
 	"source/Chapter12/ch12_11.cpp"
 	"source/Chapter12/ch12_12.cpp")
+add_executable(ex12_01 
+	"excercise/Chapter12/ex12_01/cow.h"
+	"excercise/Chapter12/ex12_01/cow.cpp"
+	"excercise/Chapter12/ex12_01/usecow.cpp")
 
 
 # -----------------------------------------------------------------
