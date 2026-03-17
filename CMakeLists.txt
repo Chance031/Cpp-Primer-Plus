@@ -412,6 +412,10 @@ add_executable(ex12_05
 	"excercise/Chapter12/ex12_05/queue.h"
 	"excercise/Chapter12/ex12_05/queue.cpp"
 	"excercise/Chapter12/ex12_05/bank2.cpp")
+add_executable(ex12_06 
+	"excercise/Chapter12/ex12_06/queue.h"
+	"excercise/Chapter12/ex12_06/queue.cpp"
+	"excercise/Chapter12/ex12_06/bank3.cpp")
 
 
 # -----------------------------------------------------------------
