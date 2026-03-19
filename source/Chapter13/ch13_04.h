@@ -2,7 +2,7 @@
 #ifndef TABTENN1_H_
 #define TABTENN1_H_
 #include <string>
-using std::string
+using std::string;
 // 간단한 기초 클래스
 class TableTennisPlayer
 {
