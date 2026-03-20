@@ -429,9 +429,10 @@ add_executable(ch13_04-06
 	"source/Chapter13/ch13_04.h"
 	"source/Chapter13/ch13_05.cpp"
 	"source/Chapter13/ch13_06.cpp")
-add_executable(ch13_07-08 
+add_executable(ch13_07-09 
 	"source/Chapter13/ch13_07.h"
-	"source/Chapter13/ch13_08.cpp")
+	"source/Chapter13/ch13_08.cpp"
+	"source/Chapter13/ch13_09.cpp")
 
 # -----------------------------------------------------------------
 # 제 14장: C++ 코드의 재활용 (Chapter 14)
