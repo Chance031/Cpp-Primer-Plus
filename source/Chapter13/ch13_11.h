@@ -39,7 +39,7 @@ public:
 			   double bal = 0.0) : AcctABC(s, an, bal) {}
 	virtual void Withdraw(double amt);
 	virtual void ViewAcct() const;
-	virtual ~AcctABC() {}
+	virtual ~Brass() {}
 };
 
 // Brass Plus Account Class
