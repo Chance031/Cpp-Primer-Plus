@@ -30,7 +30,7 @@ private:
 public:
 	lacksDMA(const char* c = "blank", const char* l = "null",
 					int r = 0);
-	lacksDMA(const char* c =, const baseDMA& rs);
+	lacksDMA(const char* c, const baseDMA& rs);
 	friend std::ostream& operator<<(std::ostream& os,
 					const lacksDMA& rs);
 };
