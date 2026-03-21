@@ -49,6 +49,13 @@ lacksDMA::lacksDMA(const char* c, const char* l, int r)
 	color[COL_LEN - 1] = '\0';
 }
 
+lacksDMA::lacksDMA(const char* c, const baseDMA& rs)
+	: baseDMA(rs)
+{
+	std::strncpy(color, c, COL_LEN - 1);
+	color[COL_LEN - 1] = '\0';
+}
+
 std::ostream& operator<<(std::ostream& os, const lacksDMA& ls)
 {
 	os << (const baseDMA&)ls;
