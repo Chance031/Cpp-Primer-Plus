@@ -445,6 +445,10 @@ add_executable(ch13_15
 	"source/Chapter13/ch13_14.h"
 	"source/Chapter13/ch13_15.cpp"
 	"source/Chapter13/ch13_16.cpp")
+add_executable(ex13_01 
+	"excercise/Chapter13/ex13_01/classic.h"
+	"excercise/Chapter13/ex13_01/classic.cpp"
+	"excercise/Chapter13/ex13_01/pe13-01.cpp")
 
 
 # -----------------------------------------------------------------
