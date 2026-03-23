@@ -40,7 +40,7 @@ ostream& Student::arr_out(ostream& os) const
 		{
 			os << scores[i] << " ";
 			if (i % 5 == 4)
-				os < endl;
+				os << endl;
 		}
 		if (i % 5 != 0)
 			os << endl;
