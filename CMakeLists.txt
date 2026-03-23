@@ -449,6 +449,18 @@ add_executable(ex13_01
 	"excercise/Chapter13/ex13_01/classic.h"
 	"excercise/Chapter13/ex13_01/classic.cpp"
 	"excercise/Chapter13/ex13_01/pe13-01.cpp")
+add_executable(ex13_02 
+	"excercise/Chapter13/ex13_02/classic1.h"
+	"excercise/Chapter13/ex13_02/classic1.cpp"
+	"excercise/Chapter13/ex13_02/pe13-02.cpp")
+add_executable(ex13_03 
+	"excercise/Chapter13/ex13_03/dmaabc.h"
+	"excercise/Chapter13/ex13_03/dmaabc.cpp"
+	"excercise/Chapter13/ex13_03/pe13-03.cpp")
+add_executable(ex13_04 
+	"excercise/Chapter13/ex13_04/port.h"
+	"excercise/Chapter13/ex13_04/port.cpp"
+	"excercise/Chapter13/ex13_04/pe13-04.cpp")
 
 
 # -----------------------------------------------------------------

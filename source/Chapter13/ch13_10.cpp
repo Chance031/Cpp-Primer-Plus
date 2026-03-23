@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 #include "ch13_07.h"
-const int CLIENTS = 4;
+const int GOODS = 4;
 
 int main()
 {
@@ -11,13 +11,13 @@ int main()
 	using std::cout;
 	using std::endl;
 
-	Brass* p_clients[CLIENTS];
+	Brass* p_clients[GOODS];
 	std::string temp;
 	long tempnum;
 	double tempbal;
 	char kind;
 
-	for (int i = 0; i < CLIENTS; i++)
+	for (int i = 0; i < GOODS; i++)
 	{
 		cout << "고객의 이름을 입력하십시오: ";
 		getline(cin, temp);
@@ -46,13 +46,13 @@ int main()
 			continue;
 	}
 	cout << endl;
-	for (int i = 0; i < CLIENTS; i++)
+	for (int i = 0; i < GOODS; i++)
 	{
 		p_clients[i]->ViewAcct();
 		cout << endl;
 	}
 
-	for (int i = 0; i < CLIENTS; i++)
+	for (int i = 0; i < GOODS; i++)
 	{
 		delete p_clients[i];					// 메모리를 해제한다
 	}
