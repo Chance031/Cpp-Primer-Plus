@@ -34,7 +34,7 @@ bool Stack<Type>::isfull()
 	return top == MAX;
 }
 
-template<class Type>
+template <class Type>
 bool Stack<Type>::push(const Type& item)
 {
 	if (top < MAX)
@@ -46,7 +46,7 @@ bool Stack<Type>::push(const Type& item)
 		return false;
 }
 
-template<class Type>
+template <class Type>
 bool Stack<Type>::pop(Type& item)
 {
 	if (top > 0)
