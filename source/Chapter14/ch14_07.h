@@ -39,7 +39,7 @@ private:
 	int voice;
 public:
 	Singer() : Worker(), voice(other) {}
-	Singer(const std::string& s, long n, int v = ohter) : Worker(s, n), voice(v) {}
+	Singer(const std::string& s, long n, int v = other) : Worker(s, n), voice(v) {}
 	Singer(const Worker& wk, int v = other) : Worker(wk), voice(v) {}
 	void Set();
 	void Show() const;
