@@ -68,3 +68,5 @@ public:
 	void Set();
 	void Show() const;
 };
+
+#endif
