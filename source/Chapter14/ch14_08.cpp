@@ -11,7 +11,7 @@ Worker::~Worker() {}
 
 void Worker::Set()
 {
-	cout << "사온 이름을 입력하십시오: ";
+	cout << "사원 이름을 입력하십시오: ";
 	getline(cin, fullname);
 	cout << "사원 번호를 입력하십시오: ";
 	cin >> id;
