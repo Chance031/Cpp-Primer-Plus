@@ -478,6 +478,7 @@ add_executable(ex14_07-09
 	"source/Chapter14/ch14_07.h"
 	"source/Chapter14/ch14_08.cpp"
 	"source/Chapter14/ch14_09.cpp")
+add_executable(ex14_10 "source/Chapter14/ch14_10.h")
 
 
 # -----------------------------------------------------------------
