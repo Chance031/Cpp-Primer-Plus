@@ -96,8 +96,8 @@ void Singer::Get()
 // SingingWaiter 메서드들
 void SingingWaiter::Data() const
 {
-	Singer::Data();
 	Waiter::Data();
+	Singer::Data();
 }
 
 void SingingWaiter::Get()
