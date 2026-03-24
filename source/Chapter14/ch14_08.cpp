@@ -44,7 +44,7 @@ void Waiter::Show() const
 
 // Singer 메서드들
 
-char* Singer::pv[] = { "other", "alto", "contralto", "soprano", "bass", "baritone", "temor" };
+char* Singer::pv[] = { "other", "alto", "contralto", "soprano", "bass", "baritone", "tenor" };
 
 void Singer::Set()
 {
