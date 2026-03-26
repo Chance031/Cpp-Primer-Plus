@@ -28,7 +28,7 @@ bool Stack<Type>::isempty()
 	return top == 0;
 }
 
-template<class Type>
+template <class Type>
 bool Stack<Type>::isfull()
 {
 	return top == MAX;
