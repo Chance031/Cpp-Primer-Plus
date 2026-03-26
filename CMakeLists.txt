@@ -496,6 +496,7 @@ add_executable(ex14_20 "source/Chapter14/ch14_20.cpp")
 add_executable(ex14_21 
 	"source/Chapter14/ch14_13.h"
 	"source/Chapter14/ch14_21.cpp")
+add_executable(ex14_22 "source/Chapter14/ch14_22.cpp")
 
 
 # -----------------------------------------------------------------
