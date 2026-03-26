@@ -492,6 +492,7 @@ add_executable(ex14_17-18
 	"source/Chapter14/ch14_17.h"
 	"source/Chapter14/ch14_18.cpp")
 add_executable(ex14_19 "source/Chapter14/ch14_19.cpp")
+add_executable(ex14_20 "source/Chapter14/ch14_20.cpp")
 
 # -----------------------------------------------------------------
 # 제 15장: 프렌드, 예외, 기타 사항 (Chapter 15)
