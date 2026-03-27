@@ -504,6 +504,20 @@ add_executable(ex14_01
 	"excercise/Chapter14/ex14_01/winec.h"
 	"excercise/Chapter14/ex14_01/winec.cpp"
 	"excercise/Chapter14/ex14_01/pe14-1.cpp")
+add_executable(ex14_02 
+	"excercise/Chapter14/ex14_02/pair.h"
+	"excercise/Chapter14/ex14_02/winei.h"
+	"excercise/Chapter14/ex14_02/winei.cpp"
+	"excercise/Chapter14/ex14_02/pe14-2.cpp")
+add_executable(ex14_03
+	"excercise/Chapter14/ex14_03/queuetp.h"
+	"excercise/Chapter14/ex14_03/worker.h"
+	"excercise/Chapter14/ex14_03/worker.cpp"
+	"excercise/Chapter14/ex14_03/pe14-3.cpp")
+add_executable(ex14_04
+	"excercise/Chapter14/ex14_04/person.h"
+	"excercise/Chapter14/ex14_04/person.cpp"
+	"excercise/Chapter14/ex14_04/pe14-4.cpp")
 
 
 # -----------------------------------------------------------------
