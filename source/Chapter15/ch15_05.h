@@ -1,5 +1,5 @@
 // queuetp.h -- 내포 클래스를 사용하는 큐 템플릿
-#ifnder QUEUETP_H_
+#ifndef QUEUETP_H_
 #define QUEUETP_H_
 
 template <class Item>
