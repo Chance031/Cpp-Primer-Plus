@@ -537,6 +537,7 @@ add_executable(ex15_05-06
 	"source/Chapter15/ch15_06.cpp")
 add_executable(ex15_07 "source/Chapter15/ch15_07.cpp")
 add_executable(ex15_08 "source/Chapter15/ch15_08.cpp")
+add_executable(ex15_09 "source/Chapter15/ch15_09.cpp")
 
 
 # -----------------------------------------------------------------
