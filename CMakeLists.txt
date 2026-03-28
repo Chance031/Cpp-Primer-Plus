@@ -518,6 +518,10 @@ add_executable(ex14_04
 	"excercise/Chapter14/ex14_04/person.h"
 	"excercise/Chapter14/ex14_04/person.cpp"
 	"excercise/Chapter14/ex14_04/pe14-4.cpp")
+add_executable(ex14_05
+	"excercise/Chapter14/ex14_05/emp.h"
+	"excercise/Chapter14/ex14_05/emp.cpp"
+	"excercise/Chapter14/ex14_05/pe14-5.cpp")
 
 
 # -----------------------------------------------------------------
