@@ -527,11 +527,11 @@ add_executable(ex14_05
 # -----------------------------------------------------------------
 # 제 15장: 프렌드, 예외, 기타 사항 (Chapter 15)
 # -----------------------------------------------------------------
-add_executable(ex15_01-03 
+add_executable(ex15_01-04 
 	"source/Chapter15/ch15_01.h"
 	"source/Chapter15/ch15_02.cpp"
-	"source/Chapter15/ch15_03.cpp")
-add_executable(ex15_04 "source/Chapter15/ch15_04.h")
+	"source/Chapter15/ch15_03.cpp"
+	"source/Chapter15/ch15_04.h")
 
 
 # -----------------------------------------------------------------
